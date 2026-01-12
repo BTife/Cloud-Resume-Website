@@ -99,14 +99,6 @@ cloud-resume-website/
 * Debugging and integrating multiple cloud services
 * Strong documentation and project presentation skills
 
----
-
-## Future Enhancements
-
-* CI/CD pipeline for automated deployments
-* Infrastructure as Code (Terraform or AWS CDK)
-* Enhanced analytics and monitoring
-* Custom domain with Route 53 (if not already implemented)
 
 ---
 

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oluwatomiwa Baruwa | Cloud Resume</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Internal CSS (you can move this to style.css later) -->
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      color: #cbd5f5;
+      margin: 6px 0;
+    }
+
+    .meta {
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    .meta span {
+      margin: 0 6px;
+    }
+
+    .badges {
+      margin-top: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1e293b;
+      border: 1px solid #334155;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      margin: 5px;
+    }
+
+    .kpi {
+      margin-top: 25px;
+      font-size: 1rem;
+      background: #020617;
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 10px;
+      border: 1px solid #1e293b;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 14px;
+      padding: 25px;
+    }
+
+    .card h2 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+      color: #38bdf8;
+    }
+
+    .card ul {
+      padding-left: 20px;
+    }
+
+    .card li {
+      margin-bottom: 10px;
+    }
+
+    .span-2 {
+      grid-column: span 2;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.85rem;
+      color: #94a3b8;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .span-2 {
+        grid-column: span 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Oluwatomiwa Baruwa</h1>
+      <p>Cloud Computing Student @ Morgan State University</p>
+      <p>Expected Graduation: 2027 • CGPA: 3.8</p>
+
+      <p class="meta">
+        <span><a href="https://mail.google.com/mail/?view=cm&fs=1&to=boluwatomiwa@gmail.com"
+   target="_blank"
+   rel="noopener"
+   title="Email me">
+  boluwatomiwa@gmail.com
+</a>
+</span>•
+        <span>+1 (443)413-0706</span>•
+        <span><a href="https://linkedin.com/in/oluwatomiwa-baruwa-979689291" target="_blank">LinkedIn</a></span>•
+        <span><a href="https://github.com/BTife" target="_blank">GitHub</a></span>
+      </p>
+
+      <div class="badges">
+        <span class="badge">AWS (S3, CloudFront, IAM)</span>
+        <span class="badge">Python</span>
+        <span class="badge">Lambda • API Gateway • DynamoDB</span>
+        <span class="badge">Excel • PowerPoint</span>
+      </div>
+
+      <div class="kpi">
+        <strong>Viewers count:</strong>
+        <span id="visitor-count">Loading...</span>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Education</h2>
+        <p><strong>Morgan State University</strong></p>
+        <p>Bachelor of Science in Cloud Computing</p>
+        <p>Expected Graduation: 2027</p>
+      </div>
+
+      <div class="card">
+        <h2>Technical Skills</h2>
+        <ul>
+	  <p><strong>Cloud & Platforms:</strong></p>
+          <li>Amazon Web Services- S3, CloudFront, IAM, Lambda, DynamoDB, API Gateway</li>
+	  <p><strong>Programming:</strong></p>
+          <li>Python, C++, C, Java</li>
+	  <p><strong>Tools:</strong></p>
+          <li>HTML, Git & Github, Microsoft Excel, Microsoft PowerPoint</li>
+	  <p><strong>Concepts:</strong></p>
+	  <li>Cloud architecture, Serverless computing, Data organization & analysis, Access control & security principles </li>
+        </ul>
+      </div>
+
+      <div class="card span-2">
+  <h2>Experience</h2>
+  <ul>
+    <p>Research Assistant — UR2PhD</p>
+    <li>Participating in a structured research program focused on preparing underrepresented students for graduate-level STEM research</li>
+    <li>Conducting literature reviews and technical analysis related to computing and data-driven problem-solving</li>
+    <li>Collaborating with faculty mentors to develop research communication and presentation skills</li>
+    <li>Strengthened abilities in critical thinking, technical writing, and analytical reasoning</li>
+  </ul>
+</div>
+
+      <div class="card span-2">
+  <h2>Leadership & Organizations</h2>
+  <ul>
+    <p>Women in Computer Science (WiCS) Executive Board Member</p>
+    <li>Planned and executed hackathons, technical workshops, and professional development events supporting women and underrepresented students in computer science</li>
+    <li>Organized career-focused initiatives such as networking events, resume reviews, and employer panels while promoting events through strategic outreach and partnerships</li>
+    <li>Fostered an inclusive and supportive community by mentoring students and advocating for diversity, equity, and belonging in technology spaces</li>
+  </ul>
+</div>
+
+      <div class="card span-2">
+  <h2>Projects</h2>
+  <ul>
+    <p>Cloud Resume Website</p>
+    <li>Designed and deployed a serverless static resume website using Amazon S3</li>
+    <li>Configured IAM policies and S3 bucket permissions to securely allow public access</li>
+    <li>Implemented CloudFront to enable HTTPS and improve content delivery performance</li>
+    <li>Demonstrated understanding of scalable, cost-efficient cloud architecture</li>
+  </ul>
+</div>
+    </div>
+
+    <p class="footer">© 2026 Oluwatomiwa Baruwa</p>
+  </div>
+
+  <!-- Visitor Counter Script -->
+  <script>
+    const API_URL = "https://fml2gn4522.execute-api.us-east-1.amazonaws.com/count";
+
+    fetch(API_URL)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("visitor-count").textContent = data.count;
+      })
+      .catch(() => {
+        document.getElementById("visitor-count").textContent = "—";
+      });
+  </script>
+</body>
+</html>

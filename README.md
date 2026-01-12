@@ -4,8 +4,7 @@ A fully serverless, cloud-hosted resume website designed to demonstrate practica
 
 ## Live Website
 
-https:d1rwhjcilhh6qo.cloudfront.net
-
+https://d1rwhjcilhh6qo.cloudfront.net
 ---
 
 ## Project Overview
@@ -81,11 +80,13 @@ Amazon DynamoDB (Visitor Counter)
 
 ## Repository Structure
 
+```
 cloud-resume-website/
 ├── index.html
 ├── style.css
 ├── resume.pdf
 └── README.md
+```
 
 ---
 
@@ -109,8 +110,10 @@ cloud-resume-website/
 
 ---
 
-## 👤 Author
+## Author
 
 **Oluwatomiwa Baruwa**
 Cloud Computing Student @ Morgan State University
 Expected Graduation: 2027
+
+---
